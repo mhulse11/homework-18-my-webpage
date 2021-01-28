@@ -1,0 +1,64 @@
+.body{
+    padding: 80px;
+}
+.navBar{
+    padding-left: 15px;
+    text-align: left;
+    display: block;
+    background-color: gray;
+    height: 100px;
+}
+.navitem{
+    display: inline-block;
+    background-color: purple;
+    width: 200px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    height: 50 px;
+}
+.myskills{
+    background-color: gray;
+}
+.my_bio{
+ 
+    background-color: chartreuse;
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+.hero_image{
+    border: cyan;
+    display: inline;
+    height: 300px;
+    width: 300px;
+}
+.flexcontainer{
+    display: flex;
+    padding: 10px;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: "userresearch" "UIdesign" "webdesign";
+    background-color: blue;
+}
+#userresearch{
+    grid-area:userresearch ;
+}
+#uidesign{
+    grid-area:uidesign ;
+}
+#webdesign{
+    grid-area: webdesign;
+}
+
+.workgrid{
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: "taskorganizer" "UIdesign" "webdesign";
+    background-color: blue;
+}
